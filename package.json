@@ -8,7 +8,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "export": "next export && touch out/.nojekyll",
+    "export": "next export",
     "flow": "flow",
     "lint": "prettier --check src/**/*.{js,json,scss}",
     "start": "next start",
