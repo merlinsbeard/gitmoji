@@ -419,6 +419,13 @@
       "code": ":wastebasket:",
       "description": "Deprecating code that needs to be cleaned up.",
       "name": "wastebasket"
-    }
+    },
+    {
+      "emoji":"🐳",
+      "entity":"&#x1f433;",
+      "code":":whale:",
+      "description":"Docker stuff",
+      "name":"whale"
+  }
   ]
 }

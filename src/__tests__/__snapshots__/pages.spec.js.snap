@@ -2186,6 +2186,39 @@ exports[`Pages Index should render the page 1`] = `
           </div>
         </div>
       </article>
+      <article
+        className="emoji col-xs-12 col-sm-6 col-md-3"
+      >
+        <div
+          className="emoji-card"
+        >
+          <header
+            className="whale emoji-header"
+          >
+            <span
+              className="emoji-icon gitmoji-emoji"
+              data-clipboard-text="🐳"
+            >
+              🐳
+            </span>
+          </header>
+          <div
+            className="emoji-info"
+          >
+            <div
+              className="gitmoji-code"
+              data-clipboard-text=":whale:"
+            >
+              <code>
+                :whale:
+              </code>
+            </div>
+            <p>
+              Docker stuff
+            </p>
+          </div>
+        </div>
+      </article>
     </div>
   </div>
 </main>
