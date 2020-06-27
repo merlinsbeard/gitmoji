@@ -1,5 +1,5 @@
 // @flow
-import React from 'react'
+import React, { useState } from 'react'
 import Clipboard from 'clipboard'
 
 import Gitmoji from './Gitmoji'
@@ -14,6 +14,7 @@ type Props = {
 }
 
 const GitmojiList = (props: Props) => {
+  const [keyword, setKeyword] = useState('')
   React.useEffect(() => {
     const clipboard = new Clipboard('.gitmoji-code, .gitmoji-emoji')
 
@@ -40,17 +41,46 @@ const GitmojiList = (props: Props) => {
     return () => clipboard.destroy()
   }, [])
 
+  const filteredGitmojis = () => {
+    let currentGitmojis = props.gitmojis
+    if (keyword) {
+      return currentGitmojis.filter((emoji) => {
+        return (
+          emoji.description.toLowerCase().includes(keyword) ||
+          emoji.code.toLowerCase().includes(keyword)
+        )
+      })
+    }
+    return currentGitmojis
+  }
+
+  function handleChange(e) {
+    setKeyword(e.target.value)
+  }
+
   return (
-    <div className="row center-xs" id="gitmoji-list">
-      {props.gitmojis.map((gitmoji, index) => (
-        <Gitmoji
-          code={gitmoji.code}
-          description={gitmoji.description}
-          emoji={gitmoji.emoji}
-          key={index}
-          name={gitmoji.name}
-        />
-      ))}
+    <div>
+      <form className="form container row center-xs">
+        <div className="form-field col-xs-12">
+          <input
+            type="text"
+            className="form-field-search"
+            placeholder="Search..."
+            onChange={(e) => setKeyword(e.target.value)}
+          />
+        </div>
+      </form>
+      <div className="row center-xs" id="gitmoji-list">
+        {filteredGitmojis().map((gitmoji, index) => (
+          <Gitmoji
+            code={gitmoji.code}
+            description={gitmoji.description}
+            emoji={gitmoji.emoji}
+            key={index}
+            name={gitmoji.name}
+          />
+        ))}
+      </div>
     </div>
   )
 }

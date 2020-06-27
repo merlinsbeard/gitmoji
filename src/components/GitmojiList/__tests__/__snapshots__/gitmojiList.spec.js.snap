@@ -1,207 +1,223 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`GitmojiList should render the component 1`] = `
-<div
-  className="row center-xs"
-  id="gitmoji-list"
->
-  <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+<div>
+  <form
+    className="form container row center-xs"
   >
     <div
-      className="emoji-card"
+      className="form-field col-xs-12"
     >
-      <header
-        className="art emoji-header"
-      >
-        <span
-          className="emoji-icon gitmoji-emoji"
-          data-clipboard-text="🎨"
-        >
-          🎨
-        </span>
-      </header>
-      <div
-        className="emoji-info"
-      >
-        <div
-          className="gitmoji-code"
-          data-clipboard-text=":art:"
-        >
-          <code>
-            :art:
-          </code>
-        </div>
-        <p>
-          Improving structure / format of the code.
-        </p>
-      </div>
+      <input
+        className="form-field-search"
+        onChange={[Function]}
+        placeholder="Search..."
+        type="text"
+      />
     </div>
-  </article>
-  <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
+  </form>
+  <div
+    className="row center-xs"
+    id="gitmoji-list"
   >
-    <div
-      className="emoji-card"
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
     >
-      <header
-        className="zap emoji-header"
-      >
-        <span
-          className="emoji-icon gitmoji-emoji"
-          data-clipboard-text="⚡️"
-        >
-          ⚡️
-        </span>
-      </header>
       <div
-        className="emoji-info"
+        className="emoji-card"
       >
-        <div
-          className="gitmoji-code"
-          data-clipboard-text=":zap:"
+        <header
+          className="art emoji-header"
         >
-          <code>
-            :zap:
-          </code>
+          <span
+            className="emoji-icon gitmoji-emoji"
+            data-clipboard-text="🎨"
+          >
+            🎨
+          </span>
+        </header>
+        <div
+          className="emoji-info"
+        >
+          <div
+            className="gitmoji-code"
+            data-clipboard-text=":art:"
+          >
+            <code>
+              :art:
+            </code>
+          </div>
+          <p>
+            Improving structure / format of the code.
+          </p>
         </div>
-        <p>
-          Improving performance.
-        </p>
       </div>
-    </div>
-  </article>
-  <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
-  >
-    <div
-      className="emoji-card"
+    </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
     >
-      <header
-        className="fire emoji-header"
-      >
-        <span
-          className="emoji-icon gitmoji-emoji"
-          data-clipboard-text="🔥"
-        >
-          🔥
-        </span>
-      </header>
       <div
-        className="emoji-info"
+        className="emoji-card"
       >
-        <div
-          className="gitmoji-code"
-          data-clipboard-text=":fire:"
+        <header
+          className="zap emoji-header"
         >
-          <code>
-            :fire:
-          </code>
+          <span
+            className="emoji-icon gitmoji-emoji"
+            data-clipboard-text="⚡️"
+          >
+            ⚡️
+          </span>
+        </header>
+        <div
+          className="emoji-info"
+        >
+          <div
+            className="gitmoji-code"
+            data-clipboard-text=":zap:"
+          >
+            <code>
+              :zap:
+            </code>
+          </div>
+          <p>
+            Improving performance.
+          </p>
         </div>
-        <p>
-          Removing code or files.
-        </p>
       </div>
-    </div>
-  </article>
-  <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
-  >
-    <div
-      className="emoji-card"
+    </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
     >
-      <header
-        className="bug emoji-header"
-      >
-        <span
-          className="emoji-icon gitmoji-emoji"
-          data-clipboard-text="🐛"
-        >
-          🐛
-        </span>
-      </header>
       <div
-        className="emoji-info"
+        className="emoji-card"
       >
-        <div
-          className="gitmoji-code"
-          data-clipboard-text=":bug:"
+        <header
+          className="fire emoji-header"
         >
-          <code>
-            :bug:
-          </code>
+          <span
+            className="emoji-icon gitmoji-emoji"
+            data-clipboard-text="🔥"
+          >
+            🔥
+          </span>
+        </header>
+        <div
+          className="emoji-info"
+        >
+          <div
+            className="gitmoji-code"
+            data-clipboard-text=":fire:"
+          >
+            <code>
+              :fire:
+            </code>
+          </div>
+          <p>
+            Removing code or files.
+          </p>
         </div>
-        <p>
-          Fixing a bug.
-        </p>
       </div>
-    </div>
-  </article>
-  <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
-  >
-    <div
-      className="emoji-card"
+    </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
     >
-      <header
-        className="ambulance emoji-header"
-      >
-        <span
-          className="emoji-icon gitmoji-emoji"
-          data-clipboard-text="🚑"
-        >
-          🚑
-        </span>
-      </header>
       <div
-        className="emoji-info"
+        className="emoji-card"
       >
-        <div
-          className="gitmoji-code"
-          data-clipboard-text=":ambulance:"
+        <header
+          className="bug emoji-header"
         >
-          <code>
-            :ambulance:
-          </code>
+          <span
+            className="emoji-icon gitmoji-emoji"
+            data-clipboard-text="🐛"
+          >
+            🐛
+          </span>
+        </header>
+        <div
+          className="emoji-info"
+        >
+          <div
+            className="gitmoji-code"
+            data-clipboard-text=":bug:"
+          >
+            <code>
+              :bug:
+            </code>
+          </div>
+          <p>
+            Fixing a bug.
+          </p>
         </div>
-        <p>
-          Critical hotfix.
-        </p>
       </div>
-    </div>
-  </article>
-  <article
-    className="emoji col-xs-12 col-sm-6 col-md-3"
-  >
-    <div
-      className="emoji-card"
+    </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
     >
-      <header
-        className="sparkles emoji-header"
-      >
-        <span
-          className="emoji-icon gitmoji-emoji"
-          data-clipboard-text="✨"
-        >
-          ✨
-        </span>
-      </header>
       <div
-        className="emoji-info"
+        className="emoji-card"
       >
-        <div
-          className="gitmoji-code"
-          data-clipboard-text=":sparkles:"
+        <header
+          className="ambulance emoji-header"
         >
-          <code>
-            :sparkles:
-          </code>
+          <span
+            className="emoji-icon gitmoji-emoji"
+            data-clipboard-text="🚑"
+          >
+            🚑
+          </span>
+        </header>
+        <div
+          className="emoji-info"
+        >
+          <div
+            className="gitmoji-code"
+            data-clipboard-text=":ambulance:"
+          >
+            <code>
+              :ambulance:
+            </code>
+          </div>
+          <p>
+            Critical hotfix.
+          </p>
         </div>
-        <p>
-          Introducing new features.
-        </p>
       </div>
-    </div>
-  </article>
+    </article>
+    <article
+      className="emoji col-xs-12 col-sm-6 col-md-3"
+    >
+      <div
+        className="emoji-card"
+      >
+        <header
+          className="sparkles emoji-header"
+        >
+          <span
+            className="emoji-icon gitmoji-emoji"
+            data-clipboard-text="✨"
+          >
+            ✨
+          </span>
+        </header>
+        <div
+          className="emoji-info"
+        >
+          <div
+            className="gitmoji-code"
+            data-clipboard-text=":sparkles:"
+          >
+            <code>
+              :sparkles:
+            </code>
+          </div>
+          <p>
+            Introducing new features.
+          </p>
+        </div>
+      </div>
+    </article>
+  </div>
 </div>
 `;
