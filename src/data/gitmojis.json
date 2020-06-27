@@ -421,11 +421,11 @@
       "name": "wastebasket"
     },
     {
-      "emoji":"🐳",
-      "entity":"&#x1f433;",
-      "code":":whale:",
-      "description":"Docker stuff",
-      "name":"whale"
-  }
+      "emoji": "🐳",
+      "entity": "&#x1f433;",
+      "code": ":whale:",
+      "description": "Docker stuff",
+      "name": "whale"
+    }
   ]
 }
