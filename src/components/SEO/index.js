@@ -13,9 +13,9 @@ const SEO = (props: Props) => (
     </title>
     <link
       rel="canonical"
-      href={`https://gitmoji.carloscuesta.me${props.pageUrl || ''}`}
+      href={`https://gitmoji.benpaat.xyz${props.pageUrl || ''}`}
     />
-    <meta name="author" content="Carlos Cuesta" />
+    <meta name="author" content="Ben Paat" />
     <meta
       name="description"
       content="Gitmoji is an emoji guide for your commit messages. Aims to be a standarization cheatshee /t for using emojis on GitHub's commit messages."
@@ -29,10 +29,9 @@ const SEO = (props: Props) => (
     />
     <meta
       name="twitter:image"
-      content="https://gitmoji.carloscuesta.me/static/gitmoji.gif"
+      content="https://gitmoji.benpaat.xyz/static/gitmoji.gif"
     />
-    <meta name="twitter:creator" content="@crloscuesta" />
-    <meta name="twitter:url" content="https://gitmoji.carloscuesta.me" />
+    <meta name="twitter:url" content="https://gitmoji.benpaat.xyz" />
     <meta property="og:title" content="gitmoji" />
     <meta
       name="og:description"
@@ -40,9 +39,9 @@ const SEO = (props: Props) => (
     />
     <meta
       property="og:image"
-      content="https://gitmoji.carloscuesta.me/static/gitmoji.gif"
+      content="https://gitmoji.benpaat.xyz/static/gitmoji.gif"
     />
-    <meta name="og:url" content="https://gitmoji.carloscuesta.me" />
+    <meta name="og:url" content="https://gitmoji.benpaat.xyz" />
     <meta name="robots" content="index, follow" />
     <link
       rel="apple-touch-icon"
@@ -117,10 +116,6 @@ const SEO = (props: Props) => (
     <meta name="msapplication-TileColor" content="#FFDD67" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#FFDD67" />
-    <meta
-      name="google-site-verification"
-      content="78vmlhi_erc-UGybxcGwHyiUtf04wzYExTLa-4LoWio"
-    />
   </Head>
 )
 
