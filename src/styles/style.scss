@@ -17,6 +17,56 @@ body {
     sans-serif;
 }
 
+body.dark {
+  background-color: $dark-background;
+
+  .emoji-card {
+    background-color: $dark-emoji-card;
+    box-shadow: none;
+
+    &:hover {
+      box-shadow: 0 10px 20px 0 rgb(14, 14, 119);
+    }
+  }
+
+  .gitmoji {
+    &-code {
+      color: $dark-emoji-code-text;
+    }
+  }
+  .emoji-info p {
+    color: $dark-emoji-code-text;
+  }
+
+  .form-field-search {
+    color: $dark-emoji-code-text;
+    background-color: $dark-emoji-card;
+    box-shadow: none;
+    border-color: black;
+    &:focus {
+      box-shadow: 0 10px 20px 0 rgb(14, 14, 119);
+      border-color: black;
+      outline: none !important;
+    }
+  }
+}
+
+.toggle-button {
+  position: fixed;
+  right: 1.15rem;
+  z-index: 100;
+  border-color: transparent;
+  box-shadow: none;
+  background-color: transparent;
+  outline: 0;
+  font-size: 1.5rem;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 20px 0 rgb(14, 14, 119);
+    outline: none !important;
+  }
+}
+
 a {
   transition: color 0.5s ease-in-out;
   text-decoration: none;
