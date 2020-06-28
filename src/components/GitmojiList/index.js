@@ -45,9 +45,10 @@ const GitmojiList = (props: Props) => {
     let currentGitmojis = props.gitmojis
     if (keyword) {
       return currentGitmojis.filter((emoji) => {
+        let k = keyword.toLowerCase()
         return (
-          emoji.description.toLowerCase().includes(keyword) ||
-          emoji.code.toLowerCase().includes(keyword)
+          emoji.description.toLowerCase().includes(k) ||
+          emoji.code.toLowerCase().includes(k)
         )
       })
     }
