@@ -19,6 +19,7 @@ body {
 
 body.dark {
   background-color: $dark-background;
+  color: #fff;
 
   .emoji-card {
     background-color: $dark-emoji-card;
@@ -51,6 +52,48 @@ body.dark {
   }
 }
 
+body.solarized-dark {
+  $dark-background: #002b36;
+  $dark-emoji-card: #073642;
+  $dark-emoji-code-text: #657b83;
+  $dark-emoji-description-text: #657b83;
+  $hover-color: #2aa198;
+  // $hover-color: #0e0e77;
+
+  background-color: $dark-background;
+  color: #657b83;
+
+  .emoji-card {
+    background-color: $dark-emoji-card;
+    box-shadow: none;
+
+    &:hover {
+      box-shadow: 0 10px 20px 0 $hover-color;
+    }
+  }
+
+  .gitmoji {
+    &-code {
+      color: $dark-emoji-code-text;
+    }
+  }
+  .emoji-info p {
+    color: $dark-emoji-code-text;
+  }
+
+  .form-field-search {
+    color: $dark-emoji-code-text;
+    background-color: $dark-emoji-card;
+    box-shadow: none;
+    border-color: black;
+    &:focus {
+      box-shadow: 0 10px 20px 0 $hover-color;
+      border-color: black;
+      outline: none !important;
+    }
+  }
+}
+
 .toggle-button {
   position: fixed;
   right: 1.15rem;
@@ -62,7 +105,7 @@ body.dark {
   font-size: 1.5rem;
   &:hover {
     cursor: pointer;
-    box-shadow: 0 10px 20px 0 rgb(14, 14, 119);
+    // box-shadow: 0 10px 20px 0 rgb(14, 14, 119);
     outline: none !important;
   }
 }

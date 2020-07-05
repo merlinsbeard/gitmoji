@@ -5,13 +5,13 @@ import '../styles/style.scss'
 import Layout from '../components/Layout'
 import GitmojiList from '../components/GitmojiList'
 import SEO from '../components/SEO'
-import Toggle from '../components/Toggle'
+import ThemeSelector from '../components/ThemeSelector'
 import { gitmojis } from '../data/gitmojis.json'
 
 const Home = () => (
   <>
     <SEO />
-    <Toggle />
+    <ThemeSelector />
     <Layout headerWithSocialButtons>
       <GitmojiList gitmojis={gitmojis} />
     </Layout>
