@@ -188,12 +188,16 @@ Array [
   <div
     className="toggle"
   >
-    <button
-      className="toggle-button"
-      onClick={[Function]}
+    <div
+      className="toggle"
     >
-      💡
-    </button>
+      <button
+        className="toggle-button"
+        onClick={[Function]}
+      >
+        🌙
+      </button>
+    </div>
   </div>,
   <main
     className="wrap"
