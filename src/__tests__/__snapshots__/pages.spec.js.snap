@@ -203,7 +203,7 @@ Array [
     className="wrap"
   >
     <div>
-      <form
+      <div
         className="form container row center-xs"
       >
         <div
@@ -216,7 +216,7 @@ Array [
             type="text"
           />
         </div>
-      </form>
+      </div>
       <div
         className="row center-xs"
         id="gitmoji-list"
