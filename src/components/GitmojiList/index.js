@@ -61,7 +61,7 @@ const GitmojiList = (props: Props) => {
 
   return (
     <div>
-      <form className="form container row center-xs">
+      <div className="form container row center-xs">
         <div className="form-field col-xs-12">
           <input
             type="text"
@@ -70,7 +70,7 @@ const GitmojiList = (props: Props) => {
             onChange={(e) => setKeyword(e.target.value)}
           />
         </div>
-      </form>
+      </div>
       <div className="row center-xs" id="gitmoji-list">
         {filteredGitmojis().map((gitmoji, index) => (
           <Gitmoji
