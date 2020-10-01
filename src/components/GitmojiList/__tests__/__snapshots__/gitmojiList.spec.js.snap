@@ -2,7 +2,7 @@
 
 exports[`GitmojiList should render the component 1`] = `
 <div>
-  <form
+  <div
     className="form container row center-xs"
   >
     <div
@@ -15,7 +15,7 @@ exports[`GitmojiList should render the component 1`] = `
         type="text"
       />
     </div>
-  </form>
+  </div>
   <div
     className="row center-xs"
     id="gitmoji-list"

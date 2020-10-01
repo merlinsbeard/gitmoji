@@ -23,3 +23,8 @@ Modified version of [Gitmoji](https://gitmoji.carloscuesta.me)
 ## License
 
 The code is available under the [MIT](https://github.com/merlinsbeard/gitmoji/blob/master/LICENSE) license.
+
+## Usage
+
+Click on Emoji icon to copy unicode of emoji. Click on text to copy text of emoji.
+
